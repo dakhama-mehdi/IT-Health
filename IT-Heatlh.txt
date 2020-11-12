@@ -1,0 +1,13 @@
+Get-ChildItem "HKLM:\Software\Microsoft\intunemanagementextension\policies\*" -Recurse | ForEach-Object {
+
+
+$reg=[string]$_.name
+
+$reg=$reg.replace("HKEY_LOCAL_MACHINE\","HKLM:")
+
+$var = (Get-ItemProperty $reg)
+
+Write-Host le résultat est : $var.result error : $var.ResultDetails
+
+
+}
