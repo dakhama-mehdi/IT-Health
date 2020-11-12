@@ -8,8 +8,11 @@ This free tool, can be deployed from azure portal intune application with .msi f
 re-run and detect the real reason for failed execution
 
 Developped by : Dakhama Mehdi
+
 Helped by : Deman-Barcelo Thierry
+
 Thanks to : 
+
 Prajwal Desai
 Nicolas Bonnet
 Kumar Jitesh
