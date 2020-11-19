@@ -23,4 +23,5 @@ Kumar Jitesh
 #How To Use : 
 
 simply copy the msi in your intune portal applications, and deploy it on workstations,
+
 you can then open the application from workstations 
